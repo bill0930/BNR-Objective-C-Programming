@@ -1,6 +1,6 @@
 
 
-# Object Instance Variables and Properties
+# Chapter 21 - Object Instance Variables and Properties
 
 -   Instance variable
     -   simply C type, like `int` `float`
