@@ -78,3 +78,13 @@ NS_ASSUME_NONNULL_END
 -   RMB -> when using dot notation with an object, a message is being sent.
 -   it calls either the getter method (**weightInKilos**) or the setter method (**setWeightInKilos:**) 
 
+```objective-c
+//SAME
+mikey.weightInKilos = 96; 
+[mikey setWeightInKilos:96];
+
+// SAME
+float w = mikey.weightInKilos; 
+float w = [mikey weightInKilos];
+```
+
