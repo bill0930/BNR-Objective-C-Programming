@@ -4,7 +4,7 @@
 
 ## C ane Objective C
 
--   *Assembly code* 
+-   Assembly code
     -   very loweest-level programming language
     -   CPU-dependent
     -   will be transformed into machine code

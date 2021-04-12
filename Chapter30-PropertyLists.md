@@ -27,7 +27,6 @@ int main(int argc, const char * argv[]) {
 		NSMutableArray *stocks = [[NSMutableArray alloc] init];
 		
 		NSMutableDictionary *stock;
-		
 		stock = [NSMutableDictionary dictionary];
 		[stock setObject:@"AAPL" forKey:@"symbol"];
 		[stock setObject:[NSNumber numberWithInt:200] forKey:@"shares"];
